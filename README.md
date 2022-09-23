@@ -13,7 +13,7 @@ I also downloaded the image prediction tsv file from the URL that was provided b
 Encountered a challenge wile trying to access the twitter data therefore I opted to use the tweet json file that was already provided by Udacity. I proceeded to read the tweet json txt file line by line into a pandas DataFrame with tweet ID, retweet count and favorite count.
 
 ### Accessing Data
-There are two type of assessing data which I used. Visual assessment and the programmatic assessment. Each piece I gathered, I displayed on my jupyter notebook for visual assessment and at first glance all I could some columns with missing values. I also opened the twitter archived enhanced csv file on excel worksheet and I noticed the many 'none' values on the doggo, floofer, pupper and puppo which are the dog stages.
+There are two type of assessing data which I used. Visual assessment and the programmatic assessment. Each piece I gathered, I displayed on my jupyter notebook for visual assessment and at first glance some columns with missing values. I also opened the twitter archived enhanced csv file on excel worksheet and I noticed the many 'none' values on the doggo, floofer, pupper and puppo which are the dog stages.
 
 With the programmatic assessment I used some pandas functions and methods to access the data. Some of these fuctions are .head() to access first 5 rows, .info() to get basic information, and .describe() to get statistical infomation. After all the accessment I documented the major issues I found on the datasets. Then proceeded to cleaning.
 
